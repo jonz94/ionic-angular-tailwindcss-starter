@@ -1,0 +1,9 @@
+*.md
+.angular/
+.idea/
+android/
+ios/
+node_modules/
+resources/
+src/polyfills.ts
+www/
