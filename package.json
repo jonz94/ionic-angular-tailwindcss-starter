@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
     "build": "ng build",
     "fmt": "prettier --write .",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "ng": "ng",
+    "start": "ng serve"
   },
   "dependencies": {
     "@angular/common": "^14.0.6",
