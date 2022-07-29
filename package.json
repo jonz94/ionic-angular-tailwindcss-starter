@@ -37,7 +37,7 @@
     "@ionic/angular-toolkit": "^7.0.0",
     "@jonz94/prettier-plugin-organize-attributes": "^0.0.5-patch.0",
     "@jonz94/prettier-plugin-tailwindcss": "^0.1.13-patch.0",
-    "@types/node": "^16.11.45",
+    "@types/node": "^16.11.46",
     "@types/prettier": "^2.6.3",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
