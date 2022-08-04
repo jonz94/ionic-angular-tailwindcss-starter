@@ -1,7 +1,4 @@
 {
   "name": "ionic-angular-tailwind-starter",
-  "integrations": {
-    "capacitor": {}
-  },
   "type": "angular"
 }
