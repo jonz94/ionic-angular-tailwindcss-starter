@@ -6,7 +6,8 @@
     "build": "ng build",
     "fmt": "prettier --write .",
     "lint": "ng lint",
-    "ng": "ng",
+    "ng:update-angular-cli": "ng update @angular/cli --force && prettier --write package.json",
+    "ng:update-angular-core": "ng update @angular/core --force && prettier --write package.json",
     "start": "ng serve"
   },
   "dependencies": {
