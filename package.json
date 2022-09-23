@@ -8,6 +8,7 @@
     "lint": "ng lint",
     "ng:update-angular-cli": "ng update @angular/cli --force && prettier --write package.json",
     "ng:update-angular-core": "ng update @angular/core --force && prettier --write package.json",
+    "ng:update-angular-eslint": "ng update @angular-eslint/schematics --force && prettier --write package.json",
     "start": "ng serve"
   },
   "dependencies": {
