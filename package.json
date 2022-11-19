@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^14.2.11",
     "@angular/platform-browser-dynamic": "^14.2.11",
     "@angular/router": "^14.2.11",
-    "@ionic/angular": "^6.3.5",
+    "@ionic/angular": "^6.3.7",
     "ionicons": "^6.0.4",
     "rxjs": "^7.5.7",
     "tslib": "^2.4.1",
