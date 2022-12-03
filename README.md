@@ -7,9 +7,10 @@
     - [TypeScript](https://www.typescriptlang.org/)
     - [RxJS](https://rxjs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Angular ESLint](https://github.com/angular-eslint/angular-eslint)
+- [pnpm](https://pnpm.io/)
+- [ESLint](https://eslint.org/)
+    - [Angular ESLint](https://github.com/angular-eslint/angular-eslint)
     - [TypeScript ESLint](https://typescript-eslint.io/)
-    - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/) with following Prettier plugins:
     - [prettier-plugin-organize-attributes](https://github.com/NiklasPor/prettier-plugin-organize-attributes)
     - [prettier-plugin-organize-imports](https://github.com/simonhaenisch/prettier-plugin-organize-imports)
