@@ -88,6 +88,8 @@
     }
   },
   "cli": {
+    "analytics": false,
+    "packageManager": "pnpm",
     "schematicCollections": ["@ionic/angular-toolkit"]
   },
   "schematics": {
