@@ -25,7 +25,6 @@ module.exports = {
     require('prettier-plugin-packagejson'),
     require('prettier-plugin-organize-attributes'),
     require('prettier-plugin-organize-imports'),
-    require('prettier-plugin-tailwindcss'),
   ],
 
   overrides: [

@@ -1,5 +1,10 @@
 {
   "root": true,
+  "settings": {
+    "tailwindcss": {
+      "config": "tailwind.config.cjs"
+    }
+  },
   "overrides": [
     {
       "files": ["*.ts"],
@@ -36,7 +41,7 @@
     },
     {
       "files": ["*.html"],
-      "extends": ["plugin:@angular-eslint/template/recommended"],
+      "extends": ["plugin:@angular-eslint/template/recommended", "plugin:tailwindcss/recommended"],
       "rules": {}
     },
     {
