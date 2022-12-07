@@ -17,7 +17,7 @@ specifiers:
   '@angular/platform-browser': ^15.0.2
   '@angular/platform-browser-dynamic': ^15.0.2
   '@angular/router': ^15.0.2
-  '@ionic/angular': ^6.3.9
+  '@ionic/angular': ^6.4.0
   '@ionic/angular-toolkit': ^7.0.0
   '@types/node': ^18.11.10
   '@types/prettier': ^2.7.1
@@ -43,7 +43,7 @@ dependencies:
   '@angular/platform-browser': 15.0.2_y624v2yhuyklvxtsesndgvm6nu
   '@angular/platform-browser-dynamic': 15.0.2_35pdmxna5zlo6jyg6u37zetaoe
   '@angular/router': 15.0.2_5wu52grs7aans5dk4ai6xt2mze
-  '@ionic/angular': 6.3.9_gfjniymsxexclxs67attmrubzu
+  '@ionic/angular': 6.4.0_gfjniymsxexclxs67attmrubzu
   ionicons: 6.0.4
   rxjs: 7.6.0
   tslib: 2.4.1
@@ -1825,8 +1825,8 @@ packages:
       - chokidar
     dev: true
 
-  /@ionic/angular/6.3.9_gfjniymsxexclxs67attmrubzu:
-    resolution: {integrity: sha512-j/nuHCulDygDeU4WwdKY1l+kwQGKRBN9afwdbCO79lztKenlPwiqyYwds2lZuvhMmF+S5oqXrN5gt26mVUBdCA==}
+  /@ionic/angular/6.4.0_gfjniymsxexclxs67attmrubzu:
+    resolution: {integrity: sha512-ZcMtcSk0WQzw8vxfBpBSMD8g96EqdhGVoCKmBTQsMqYhnRMGCa5518p3vLSe7KiK64G+zSzXpAuuCkz6u12UgA==}
     peerDependencies:
       '@angular/core': '>=12.0.0'
       '@angular/forms': '>=12.0.0'
@@ -1837,7 +1837,7 @@ packages:
       '@angular/core': 15.0.2_rxjs@7.6.0+zone.js@0.12.0
       '@angular/forms': 15.0.2_5wu52grs7aans5dk4ai6xt2mze
       '@angular/router': 15.0.2_5wu52grs7aans5dk4ai6xt2mze
-      '@ionic/core': 6.3.9
+      '@ionic/core': 6.4.0
       ionicons: 6.0.4
       jsonc-parser: 3.2.0
       rxjs: 7.6.0
@@ -1845,8 +1845,8 @@ packages:
       zone.js: 0.12.0
     dev: false
 
-  /@ionic/core/6.3.9:
-    resolution: {integrity: sha512-0JlCGIgLASoxZ6XXEkhCMQzdedvzqI7lsD6zBYPkUyMFOMTff7fZdQg1r9v9IQVHW+UCuyM4xc0MT4YOD4/S3A==}
+  /@ionic/core/6.4.0:
+    resolution: {integrity: sha512-rWqXX67bWDD5r5Kleacy4dTBIXcB1gX+2Q5AK7LAtmtHUUuJPqGw/bAWE8hGKlF7ehJTyzb5CYV9XDzb8/00Zw==}
     dependencies:
       '@stencil/core': 2.19.3
       ionicons: 6.0.4
