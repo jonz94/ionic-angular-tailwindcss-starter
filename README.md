@@ -1,4 +1,4 @@
-# Ionic Angular Tailwind CSS Starter
+# Ionic + Angular + Tailwind CSS Starter
 
 ## Usage
 
