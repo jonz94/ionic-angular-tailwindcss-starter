@@ -1,12 +1,9 @@
 {
-  // tailwindcss
+  // suppress "Unknown at rule @tailwind" warning message
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
 
-  // git
-  "diffEditor.ignoreTrimWhitespace": false,
-
-  // auto format when save
+  // auto format when save (prettier + eslint)
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -17,13 +14,5 @@
   "eslint.options": {
     "extensions": [".ts", ".html"]
   },
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html"],
-
-  // prettier
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html"]
 }
