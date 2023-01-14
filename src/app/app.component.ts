@@ -1,8 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, EnvironmentInjector, inject } from '@angular/core';
+import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [IonicModule],
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-export class AppComponent {}
+export class AppComponent {
+  environmentInjector = inject(EnvironmentInjector);
+}
