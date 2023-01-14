@@ -28,7 +28,7 @@ specifiers:
   ionicons: ^6.0.4
   prettier: ^2.8.2
   prettier-plugin-organize-attributes: ^0.0.5
-  prettier-plugin-organize-imports: ^3.2.1
+  prettier-plugin-organize-imports: ^3.2.2
   prettier-plugin-packagejson: ^2.3.0
   rxjs: ^7.8.0
   tailwindcss: ^3.2.4
@@ -69,7 +69,7 @@ devDependencies:
   eslint-plugin-tailwindcss: 3.8.0
   prettier: 2.8.2
   prettier-plugin-organize-attributes: 0.0.5_prettier@2.8.2
-  prettier-plugin-organize-imports: 3.2.1_2erew5p7leihmaki5isneqbk3u
+  prettier-plugin-organize-imports: 3.2.2_2erew5p7leihmaki5isneqbk3u
   prettier-plugin-packagejson: 2.3.0_prettier@2.8.2
   tailwindcss: 3.2.4
   typescript: 4.8.4
@@ -6108,8 +6108,8 @@ packages:
       prettier: 2.8.2
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.1_2erew5p7leihmaki5isneqbk3u:
-    resolution: {integrity: sha512-bty7C2Ecard5EOXirtzeCAqj4FU4epeuWrQt/Z+sh8UVEpBlBZ3m3KNPz2kFu7KgRTQx/C9o4/TdquPD1jOqjQ==}
+  /prettier-plugin-organize-imports/3.2.2_2erew5p7leihmaki5isneqbk3u:
+    resolution: {integrity: sha512-e97lE6odGSiHonHJMTYC0q0iLXQyw0u5z/PJpvP/3vRy6/Zi9kLBwFAbEGjDzIowpjQv8b+J04PDamoUSQbzGA==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
       '@volar/vue-typescript': ^1.0.4
