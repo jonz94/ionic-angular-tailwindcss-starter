@@ -30,7 +30,7 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
+            "styles": ["src/theme/variables.css", "src/global.css"],
             "scripts": []
           },
           "defaultConfiguration": "production",
