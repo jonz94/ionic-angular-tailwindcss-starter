@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EnvironmentInjector, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
@@ -9,4 +9,6 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule],
 })
-export class TabsPage {}
+export class TabsPage {
+  environmentInjector = inject(EnvironmentInjector);
+}
