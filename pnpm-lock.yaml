@@ -25,7 +25,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.49.0
   eslint: ^8.32.0
   eslint-plugin-tailwindcss: ^3.8.2
-  ionicons: ^6.0.4
+  ionicons: ^6.1.1
   prettier: ^2.8.3
   prettier-plugin-organize-attributes: ^0.0.5
   prettier-plugin-organize-imports: ^3.2.2
@@ -44,7 +44,7 @@ dependencies:
   '@angular/platform-browser-dynamic': 15.1.2_nvxdb5l45salvpcyi4ujzyiawy
   '@angular/router': 15.1.2_2e65tvtyrwy7yijl6ersdz3qky
   '@ionic/angular': 6.5.1_g6cwrwefnlba4tklmrwep57u2y
-  ionicons: 6.0.4
+  ionicons: 6.1.1
   rxjs: 7.8.0
   tslib: 2.4.1
   zone.js: 0.12.0
@@ -4705,12 +4705,6 @@ packages:
       has: 1.0.3
       side-channel: 1.0.4
     dev: true
-
-  /ionicons/6.0.4:
-    resolution: {integrity: sha512-uDNOkBo0OVYV+kIhb51g9mb7r3Z0b+78GPZQBsjXuaetNmrB/mNTqN/uFtO+vxL/rQySKjzk8qeKJI5NWL9Ueg==}
-    dependencies:
-      '@stencil/core': 2.21.0
-    dev: false
 
   /ionicons/6.1.1:
     resolution: {integrity: sha512-Qe6mx25DFNwA9UL1rhewI5StI3uD4+BqB2KdvLjyWhtvoUXwyAsmfHLZuDANAHQowIKtTt6BZCt5/g5NIQ635Q==}
