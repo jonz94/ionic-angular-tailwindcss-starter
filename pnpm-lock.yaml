@@ -24,7 +24,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.49.0
   '@typescript-eslint/parser': ^5.49.0
   eslint: ^8.32.0
-  eslint-plugin-tailwindcss: ^3.8.0
+  eslint-plugin-tailwindcss: ^3.8.2
   ionicons: ^6.0.4
   prettier: ^2.8.3
   prettier-plugin-organize-attributes: ^0.0.5
@@ -66,7 +66,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.49.0_iu322prlnwsygkcra5kbpy22si
   '@typescript-eslint/parser': 5.49.0_7uibuqfxkfaozanbtbziikiqje
   eslint: 8.32.0
-  eslint-plugin-tailwindcss: 3.8.0
+  eslint-plugin-tailwindcss: 3.8.2_qky6impwyxxk2bvue62g4cldp4
   prettier: 2.8.3
   prettier-plugin-organize-attributes: 0.0.5_prettier@2.8.3
   prettier-plugin-organize-imports: 3.2.2_uhxzhaxu465qzax2tftpee5s7i
@@ -3851,15 +3851,22 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-tailwindcss/3.8.0:
-    resolution: {integrity: sha512-Lsyncgp/eXZriAEUK9zfGHOH+9iQplygHiOuGY8SFFHKIeT0BYjyST/ownHF8UPa1TEh+jJPkdE2vlV3778C3w==}
+  /eslint-plugin-tailwindcss/3.8.2_qky6impwyxxk2bvue62g4cldp4:
+    resolution: {integrity: sha512-99DPr//xTFNls1xjXX+1p45OEvG87B+SiNkSi0DfeatKBnckjCO5831lUfwCisXSgzXd9p//gNKQJGq1ewCLJQ==}
     engines: {node: '>=12.13.0'}
+    peerDependencies:
+      tailwindcss: ^3.2.2
     dependencies:
+      '@angular-eslint/template-parser': 15.2.0_7uibuqfxkfaozanbtbziikiqje
+      '@typescript-eslint/parser': 5.49.0_7uibuqfxkfaozanbtbziikiqje
       fast-glob: 3.2.12
       postcss: 8.4.21
       tailwindcss: 3.2.4
+      vue-eslint-parser: 9.1.0_eslint@8.32.0
     transitivePeerDependencies:
-      - ts-node
+      - eslint
+      - supports-color
+      - typescript
     dev: true
 
   /eslint-scope/5.1.1:
@@ -7210,6 +7217,24 @@ packages:
   /vary/1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
+    dev: true
+
+  /vue-eslint-parser/9.1.0_eslint@8.32.0:
+    resolution: {integrity: sha512-NGn/iQy8/Wb7RrRa4aRkokyCZfOUWk19OP5HP6JEozQFX5AoS/t+Z0ZN7FY4LlmWc4FNI922V7cvX28zctN8dQ==}
+    engines: {node: ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      debug: 4.3.4
+      eslint: 8.32.0
+      eslint-scope: 7.1.1
+      eslint-visitor-keys: 3.3.0
+      espree: 9.4.1
+      esquery: 1.4.0
+      lodash: 4.17.21
+      semver: 7.3.8
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /watchpack/2.4.0:
