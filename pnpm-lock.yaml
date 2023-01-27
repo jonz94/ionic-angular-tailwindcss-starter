@@ -32,7 +32,7 @@ specifiers:
   prettier-plugin-packagejson: ^2.4.0
   rxjs: ^7.8.0
   tailwindcss: ^3.2.4
-  tslib: ^2.4.1
+  tslib: ^2.5.0
   typescript: ~4.9.4
   zone.js: ~0.12.0
 
@@ -46,7 +46,7 @@ dependencies:
   '@ionic/angular': 6.5.1_g6cwrwefnlba4tklmrwep57u2y
   ionicons: 6.1.1
   rxjs: 7.8.0
-  tslib: 2.4.1
+  tslib: 2.5.0
   zone.js: 0.12.0
 
 devDependencies:
@@ -429,7 +429,7 @@ packages:
     dependencies:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/compiler-cli/15.1.2_cywxlx5iht33t5xeib7j5n7lry:
@@ -449,7 +449,7 @@ packages:
       magic-string: 0.27.0
       reflect-metadata: 0.1.13
       semver: 7.3.8
-      tslib: 2.4.1
+      tslib: 2.5.0
       typescript: 4.9.4
       yargs: 17.6.2
     transitivePeerDependencies:
@@ -466,7 +466,7 @@ packages:
         optional: true
     dependencies:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
-      tslib: 2.4.1
+      tslib: 2.5.0
 
   /@angular/core/15.1.2_rxjs@7.8.0+zone.js@0.12.0:
     resolution: {integrity: sha512-K9pz6Bq6RuY/OWhKLZT1JQvk4orvU9wozgXY8cZaOGmNCQQ7sJv5zGkO5csO6o1ON1v/AHowrP/FAF1i8tml5g==}
@@ -476,7 +476,7 @@ packages:
       zone.js: ~0.11.4 || ~0.12.0
     dependencies:
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
       zone.js: 0.12.0
 
   /@angular/forms/15.1.2_2e65tvtyrwy7yijl6ersdz3qky:
@@ -492,7 +492,7 @@ packages:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.1.2_uv6uyeurdrzrhsp6bgc27pnjdu
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/language-service/15.1.2:
@@ -513,7 +513,7 @@ packages:
       '@angular/compiler': 15.1.2_@angular+core@15.1.2
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.1.2_uv6uyeurdrzrhsp6bgc27pnjdu
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/platform-browser/15.1.2_uv6uyeurdrzrhsp6bgc27pnjdu:
@@ -529,7 +529,7 @@ packages:
     dependencies:
       '@angular/common': 15.1.2_77moedl5bs7lqwcv53ddrcqlqi
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/router/15.1.2_2e65tvtyrwy7yijl6ersdz3qky:
@@ -545,7 +545,7 @@ packages:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.1.2_uv6uyeurdrzrhsp6bgc27pnjdu
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@assemblyscript/loader/0.10.1:
@@ -2017,7 +2017,7 @@ packages:
       ionicons: 6.1.1
       jsonc-parser: 3.2.0
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
       zone.js: 0.12.0
     dev: false
 
@@ -2026,7 +2026,7 @@ packages:
     dependencies:
       '@stencil/core': 2.21.0
       ionicons: 6.1.1
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@istanbuljs/load-nyc-config/1.1.0:
@@ -2213,7 +2213,7 @@ packages:
       open: 8.4.0
       picocolors: 1.0.0
       tiny-glob: 0.2.9
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: true
 
   /@schematics/angular/14.2.10:
@@ -5082,7 +5082,7 @@ packages:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.4.1
+      tslib: 2.5.0
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.10
@@ -6449,7 +6449,7 @@ packages:
   /rxjs/7.8.0:
     resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
 
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -6903,7 +6903,7 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.3.1
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: true
 
   /tailwindcss/3.2.4:
@@ -7061,6 +7061,10 @@ packages:
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+    dev: true
+
+  /tslib/2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
 
   /tsutils/3.21.0_typescript@4.9.4:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -7545,4 +7549,4 @@ packages:
   /zone.js/0.12.0:
     resolution: {integrity: sha512-XtC+I5dXU14HrzidAKBNMqneIVUykLEAA1x+v4KVrd6AUPWlwYORF8KgsVqvgdHiKZ4BkxxjvYi/ksEixTPR0Q==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
