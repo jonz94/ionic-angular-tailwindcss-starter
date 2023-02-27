@@ -1,5 +1,5 @@
 {
-  // suppress "Unknown at rule @tailwind" warning message
+  // suppress "Unknown at rule" warning message
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
 
