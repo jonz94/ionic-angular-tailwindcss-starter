@@ -41,7 +41,7 @@
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
-    "eslint-plugin-tailwindcss": "^3.9.0",
+    "eslint-plugin-tailwindcss": "^3.10.0",
     "prettier": "^2.8.4",
     "prettier-plugin-organize-attributes": "^0.0.5",
     "prettier-plugin-organize-imports": "^3.2.2",
