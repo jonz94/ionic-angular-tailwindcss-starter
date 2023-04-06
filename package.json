@@ -36,7 +36,7 @@
     "@angular/compiler-cli": "^15.2.6",
     "@angular/language-service": "^15.2.6",
     "@ionic/angular-toolkit": "^8.1.0",
-    "@types/node": "^18.15.0",
+    "@types/node": "^18.15.11",
     "@types/prettier": "^2.7.2",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
