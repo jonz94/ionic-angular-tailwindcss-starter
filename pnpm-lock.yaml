@@ -23,8 +23,8 @@ dependencies:
     specifier: ^6.7.2
     version: 6.7.2(@angular/core@15.2.6)(@angular/forms@15.2.6)(@angular/router@15.2.6)(rxjs@7.8.0)(zone.js@0.13.0)
   ionicons:
-    specifier: ^7.0.0
-    version: 7.0.0
+    specifier: ^7.1.0
+    version: 7.1.0
   rxjs:
     specifier: ^7.8.0
     version: 7.8.0
@@ -4707,8 +4707,8 @@ packages:
       '@stencil/core': 2.22.2
     dev: false
 
-  /ionicons@7.0.0:
-    resolution: {integrity: sha512-5G9gBxaUfJm0aAr/Kg5Eb/d7d+pMC65yiHjlkGATLrHSZgAzlc9l6ho0dCSdfq3wGef2QiZeNsvyChPVggfXwQ==}
+  /ionicons@7.1.0:
+    resolution: {integrity: sha512-iE4GuEdEHARJpp0sWL7WJZCzNCf5VxpNRhAjW0fLnZPnNL5qZOJUcfup2Z2Ty7Jk8Q5hacrHfGEB1lCwOdXqGg==}
     dependencies:
       '@stencil/core': 2.22.2
     dev: false
