@@ -67,8 +67,8 @@ devDependencies:
     specifier: ^15.2.6
     version: 15.2.6
   '@ionic/angular-toolkit':
-    specifier: ^8.1.0
-    version: 8.1.0
+    specifier: ^9.0.0
+    version: 9.0.0
   '@types/node':
     specifier: ^18.15.11
     version: 18.15.11
@@ -2003,8 +2003,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@ionic/angular-toolkit@8.1.0:
-    resolution: {integrity: sha512-QalfA+F9SR7HliJ8f99u+4Xy/hCe0D3CNXSBpNXZh4fDRa9jiSe7XmhLqr/ORg2s6oTsDDueAxvvVkRXkw5ajg==}
+  /@ionic/angular-toolkit@9.0.0:
+    resolution: {integrity: sha512-Rh8z+XGQiyEzJ2nMKTAa3nmejgabxY6f/2q+9Jm/B/VnXjpyeSe8bgP008c0EZYBvrKs7MjP1ZrNi+4FM0W3fg==}
     dependencies:
       '@angular-devkit/core': 15.2.5(chokidar@3.5.3)
       '@angular-devkit/schematics': 15.2.5
