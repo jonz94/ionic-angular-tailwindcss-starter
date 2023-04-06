@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.routes'),
