@@ -29,8 +29,8 @@ dependencies:
     specifier: ^7.8.1
     version: 7.8.1
   tslib:
-    specifier: ^2.5.0
-    version: 2.5.0
+    specifier: ^2.5.2
+    version: 2.5.2
   zone.js:
     specifier: ~0.13.0
     version: 0.13.0
@@ -466,7 +466,7 @@ packages:
     dependencies:
       '@angular/core': 16.0.2(rxjs@7.8.1)(zone.js@0.13.0)
       rxjs: 7.8.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@angular/compiler-cli@16.0.2(@angular/compiler@16.0.2)(typescript@4.9.5):
@@ -484,7 +484,7 @@ packages:
       convert-source-map: 1.9.0
       reflect-metadata: 0.1.13
       semver: 7.4.0
-      tslib: 2.5.0
+      tslib: 2.5.2
       typescript: 4.9.5
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -501,7 +501,7 @@ packages:
         optional: true
     dependencies:
       '@angular/core': 16.0.2(rxjs@7.8.1)(zone.js@0.13.0)
-      tslib: 2.5.0
+      tslib: 2.5.2
 
   /@angular/core@16.0.2(rxjs@7.8.1)(zone.js@0.13.0):
     resolution: {integrity: sha512-uPa2A+nVqwljDepahMn2ndgWg/a14VnTqgunXJP9q/Us98I/YGdryake4aTfXHUAdLON/R9IzomiXeFDYp5cJQ==}
@@ -511,7 +511,7 @@ packages:
       zone.js: ~0.13.0
     dependencies:
       rxjs: 7.8.1
-      tslib: 2.5.0
+      tslib: 2.5.2
       zone.js: 0.13.0
 
   /@angular/forms@16.0.2(@angular/common@16.0.2)(@angular/core@16.0.2)(@angular/platform-browser@16.0.2)(rxjs@7.8.1):
@@ -527,7 +527,7 @@ packages:
       '@angular/core': 16.0.2(rxjs@7.8.1)(zone.js@0.13.0)
       '@angular/platform-browser': 16.0.2(@angular/common@16.0.2)(@angular/core@16.0.2)
       rxjs: 7.8.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@angular/language-service@16.0.2:
@@ -548,7 +548,7 @@ packages:
       '@angular/compiler': 16.0.2(@angular/core@16.0.2)
       '@angular/core': 16.0.2(rxjs@7.8.1)(zone.js@0.13.0)
       '@angular/platform-browser': 16.0.2(@angular/common@16.0.2)(@angular/core@16.0.2)
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@angular/platform-browser@16.0.2(@angular/common@16.0.2)(@angular/core@16.0.2):
@@ -564,7 +564,7 @@ packages:
     dependencies:
       '@angular/common': 16.0.2(@angular/core@16.0.2)(rxjs@7.8.1)
       '@angular/core': 16.0.2(rxjs@7.8.1)(zone.js@0.13.0)
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@angular/router@16.0.2(@angular/common@16.0.2)(@angular/core@16.0.2)(@angular/platform-browser@16.0.2)(rxjs@7.8.1):
@@ -580,7 +580,7 @@ packages:
       '@angular/core': 16.0.2(rxjs@7.8.1)(zone.js@0.13.0)
       '@angular/platform-browser': 16.0.2(@angular/common@16.0.2)(@angular/core@16.0.2)
       rxjs: 7.8.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@assemblyscript/loader@0.10.1:
@@ -2084,7 +2084,7 @@ packages:
       ionicons: 7.1.0
       jsonc-parser: 3.2.0
       rxjs: 7.8.1
-      tslib: 2.5.0
+      tslib: 2.5.2
       zone.js: 0.13.0
     dev: false
 
@@ -2093,7 +2093,7 @@ packages:
     dependencies:
       '@stencil/core': 3.2.2
       ionicons: 7.1.0
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: false
 
   /@isaacs/cliui@8.0.2:
@@ -2311,7 +2311,7 @@ packages:
       nx: 16.2.1
       semver: 7.3.4
       tmp: 0.2.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: true
 
   /@nx/nx-darwin-arm64@16.2.1:
@@ -2420,7 +2420,7 @@ packages:
       open: 8.4.2
       picocolors: 1.0.0
       tiny-glob: 0.2.9
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: true
 
   /@schematics/angular@15.2.5:
@@ -2964,7 +2964,7 @@ packages:
     engines: {node: '>=14.15.0'}
     dependencies:
       js-yaml: 3.14.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: true
 
   /@zkochan/js-yaml@0.0.6:
@@ -5549,7 +5549,7 @@ packages:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
@@ -6267,7 +6267,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.5.0
+      tslib: 2.5.2
       v8-compile-cache: 2.3.0
       yargs: 17.7.2
       yargs-parser: 21.1.1
@@ -7092,7 +7092,7 @@ packages:
   /rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.2
 
   /safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -7616,7 +7616,7 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.3.1
-      tslib: 2.5.0
+      tslib: 2.5.2
     dev: true
 
   /tailwindcss@3.3.2(ts-node@10.9.1):
@@ -7842,6 +7842,10 @@ packages:
 
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: true
+
+  /tslib@2.5.2:
+    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
 
   /tsutils@3.21.0(typescript@4.9.5):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -8384,4 +8388,4 @@ packages:
   /zone.js@0.13.0:
     resolution: {integrity: sha512-7m3hNNyswsdoDobCkYNAy5WiUulkMd3+fWaGT9ij6iq3Zr/IwJo4RMCYPSDjT+r7tnPErmY9sZpKhWQ8S5k6XQ==}
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.5.2
