@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^16.2.1
     version: 16.2.1
   '@ionic/angular-toolkit':
-    specifier: ^9.0.0
-    version: 9.0.0
+    specifier: ^10.0.0
+    version: 10.0.0
   '@types/node':
     specifier: ^18.17.8
     version: 18.17.8
@@ -278,22 +278,6 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/core@15.2.8:
-    resolution: {integrity: sha512-Lo4XrbDMtXarKnMrFgWLmQdSX+3QPNAg4otG8cmp/U4jJyjV4dAYKEAsb1sCNGUSM4h4v09EQU/5ugVjDU29lQ==}
-    engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    peerDependencies:
-      chokidar: ^3.5.2
-    peerDependenciesMeta:
-      chokidar:
-        optional: true
-    dependencies:
-      ajv: 8.12.0
-      ajv-formats: 2.1.1(ajv@8.12.0)
-      jsonc-parser: 3.2.0
-      rxjs: 6.6.7
-      source-map: 0.7.4
-    dev: true
-
   /@angular-devkit/core@16.2.0(chokidar@3.5.3):
     resolution: {integrity: sha512-l1k6Rqm3YM16BEn3CWyQKrk9xfu+2ux7Bw3oS+h1TO4/RoxO2PgHj8LLRh/WNrYVarhaqO7QZ5ePBkXNMkzJ1g==}
     engines: {node: ^16.14.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
@@ -309,19 +293,6 @@ packages:
       jsonc-parser: 3.2.0
       rxjs: 7.8.1
       source-map: 0.7.4
-    dev: true
-
-  /@angular-devkit/schematics@15.2.8:
-    resolution: {integrity: sha512-w6EUGC96kVsH9f8sEzajzbONMawezyVBiSo+JYp5r25rQArAz/a+KZntbuETWHQ0rQOEsKmUNKxwmr11BaptSQ==}
-    engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    dependencies:
-      '@angular-devkit/core': 15.2.8
-      jsonc-parser: 3.2.0
-      magic-string: 0.29.0
-      ora: 5.4.1
-      rxjs: 6.6.7
-    transitivePeerDependencies:
-      - chokidar
     dev: true
 
   /@angular-devkit/schematics@16.2.0:
@@ -2213,12 +2184,12 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@ionic/angular-toolkit@9.0.0:
-    resolution: {integrity: sha512-Rh8z+XGQiyEzJ2nMKTAa3nmejgabxY6f/2q+9Jm/B/VnXjpyeSe8bgP008c0EZYBvrKs7MjP1ZrNi+4FM0W3fg==}
+  /@ionic/angular-toolkit@10.0.0:
+    resolution: {integrity: sha512-F72mvfCHEMQ/eFEgQfiIQQ7B9BLIBBS/Jjegk6UJJb/uMwgNOJG5KyHw6vaoSiBmLnHuPqLvnoz6DXJCrbKl0A==}
     dependencies:
-      '@angular-devkit/core': 15.2.8
-      '@angular-devkit/schematics': 15.2.8
-      '@schematics/angular': 15.2.8
+      '@angular-devkit/core': 16.2.0(chokidar@3.5.3)
+      '@angular-devkit/schematics': 16.2.0
+      '@schematics/angular': 16.2.0
     transitivePeerDependencies:
       - chokidar
     dev: true
@@ -2582,17 +2553,6 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       tslib: 2.6.2
-    dev: true
-
-  /@schematics/angular@15.2.8:
-    resolution: {integrity: sha512-F49IEzCFxQlpaMIgTO/wF1l/CLQKif7VaiDdyiTKOeT22IMmyd61FUmWDyZYfCBqMlvBmvDGx64HaHWes1HYCg==}
-    engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    dependencies:
-      '@angular-devkit/core': 15.2.8
-      '@angular-devkit/schematics': 15.2.8
-      jsonc-parser: 3.2.0
-    transitivePeerDependencies:
-      - chokidar
     dev: true
 
   /@schematics/angular@16.2.0:
@@ -6031,13 +5991,6 @@ packages:
     engines: {node: 14 || >=16.14}
     dev: true
 
-  /magic-string@0.29.0:
-    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
-
   /magic-string@0.30.1:
     resolution: {integrity: sha512-mbVKXPmS0z0G4XqFDCTllmDQ6coZzn94aMlb0o/A4HEHJCKcanlDZwYJgwnkmgD3jyWhUgj9VsPrfd972yPffA==}
     engines: {node: '>=12'}
@@ -7446,13 +7399,6 @@ packages:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
       queue-microtask: 1.2.3
-    dev: true
-
-  /rxjs@6.6.7:
-    resolution: {integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==}
-    engines: {npm: '>=2.0.0'}
-    dependencies:
-      tslib: 1.14.1
     dev: true
 
   /rxjs@7.8.1:
