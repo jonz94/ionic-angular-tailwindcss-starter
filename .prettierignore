@@ -1,6 +1,2 @@
 *.md
-.angular/
-.idea/
-node_modules/
-www/
 pnpm-lock.yaml
