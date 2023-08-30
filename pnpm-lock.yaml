@@ -24,8 +24,8 @@ dependencies:
     specifier: ^16.2.3
     version: 16.2.3(@angular/common@16.2.3)(@angular/core@16.2.3)(@angular/platform-browser@16.2.3)(rxjs@7.8.1)
   '@ionic/angular':
-    specifier: ^7.3.1
-    version: 7.3.1(@angular/core@16.2.3)(@angular/forms@16.2.3)(@angular/router@16.2.3)(rxjs@7.8.1)(zone.js@0.13.1)
+    specifier: ^7.3.2
+    version: 7.3.2(@angular/core@16.2.3)(@angular/forms@16.2.3)(@angular/router@16.2.3)(rxjs@7.8.1)(zone.js@0.13.1)
   ionicons:
     specifier: ^7.1.2
     version: 7.1.2
@@ -2108,8 +2108,8 @@ packages:
       - chokidar
     dev: true
 
-  /@ionic/angular@7.3.1(@angular/core@16.2.3)(@angular/forms@16.2.3)(@angular/router@16.2.3)(rxjs@7.8.1)(zone.js@0.13.1):
-    resolution: {integrity: sha512-eOrqEYanyDiW5L9uk2O2CR/dsoZ5INfk6HtgIp4FtDODq0bnTiyXS9OSBbgFan4UOptY7BZzT7kepj7PBI76cQ==}
+  /@ionic/angular@7.3.2(@angular/core@16.2.3)(@angular/forms@16.2.3)(@angular/router@16.2.3)(rxjs@7.8.1)(zone.js@0.13.1):
+    resolution: {integrity: sha512-Sn9t8lkafXGbujHZi/jlUIDEr+RmuOKHx80oWQOgalczPAs4CYJWdLffuK70qOQzFmtKTPjDRyTNJKmfnkefYQ==}
     peerDependencies:
       '@angular/core': '>=14.0.0'
       '@angular/forms': '>=14.0.0'
@@ -2120,7 +2120,7 @@ packages:
       '@angular/core': 16.2.3(rxjs@7.8.1)(zone.js@0.13.1)
       '@angular/forms': 16.2.3(@angular/common@16.2.3)(@angular/core@16.2.3)(@angular/platform-browser@16.2.3)(rxjs@7.8.1)
       '@angular/router': 16.2.3(@angular/common@16.2.3)(@angular/core@16.2.3)(@angular/platform-browser@16.2.3)(rxjs@7.8.1)
-      '@ionic/core': 7.3.1
+      '@ionic/core': 7.3.2
       ionicons: 7.1.2
       jsonc-parser: 3.2.0
       rxjs: 7.8.1
@@ -2128,8 +2128,8 @@ packages:
       zone.js: 0.13.1
     dev: false
 
-  /@ionic/core@7.3.1:
-    resolution: {integrity: sha512-RdSJsFYx2oJ08duw+DMWVAfzjxlnA+o1saX5gOLSjP5SpwP7FqURFfXrFHIFN2vIKbeqUZTZjQwPHnrFsX04dQ==}
+  /@ionic/core@7.3.2:
+    resolution: {integrity: sha512-I0OHBydk7Qxj+qC89hdwzjVOC3rAgQWMkqTWOVFVR5opr/eYJMCnVLIyoe05oIemLFk+LUzfPh0bvtw2aZcY/Q==}
     dependencies:
       '@stencil/core': 4.1.0
       ionicons: 7.1.0
