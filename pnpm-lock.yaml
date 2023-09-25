@@ -10,7 +10,7 @@ dependencies:
     version: 16.2.6(@angular/core@16.2.6)(rxjs@7.8.1)
   '@angular/core':
     specifier: ^16.2.6
-    version: 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+    version: 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
   '@angular/forms':
     specifier: ^16.2.6
     version: 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)(@angular/platform-browser@16.2.6)(rxjs@7.8.1)
@@ -25,7 +25,7 @@ dependencies:
     version: 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)(@angular/platform-browser@16.2.6)(rxjs@7.8.1)
   '@ionic/angular':
     specifier: ^7.4.1
-    version: 7.4.1(@angular/core@16.2.6)(@angular/forms@16.2.6)(@angular/router@16.2.6)(rxjs@7.8.1)(zone.js@0.13.1)
+    version: 7.4.1(@angular/core@16.2.6)(@angular/forms@16.2.6)(@angular/router@16.2.6)(rxjs@7.8.1)(zone.js@0.13.3)
   ionicons:
     specifier: ^7.1.2
     version: 7.1.2
@@ -36,8 +36,8 @@ dependencies:
     specifier: ^2.6.2
     version: 2.6.2
   zone.js:
-    specifier: ~0.13.1
-    version: 0.13.1
+    specifier: ~0.13.3
+    version: 0.13.3
 
 devDependencies:
   '@angular-devkit/build-angular':
@@ -472,7 +472,7 @@ packages:
       '@angular/core': 16.2.6
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       rxjs: 7.8.1
       tslib: 2.6.2
     dev: false
@@ -508,10 +508,10 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       tslib: 2.6.2
 
-  /@angular/core@16.2.6(rxjs@7.8.1)(zone.js@0.13.1):
+  /@angular/core@16.2.6(rxjs@7.8.1)(zone.js@0.13.3):
     resolution: {integrity: sha512-F7kJbkVHLupdVQbwjjEuWp5rtxmfnL571VtqRN/8OJZAI2OjZjnSbL+FRZGEZHDmOZ2cNgPKpYt/d3nbK8hpSw==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
@@ -520,7 +520,7 @@ packages:
     dependencies:
       rxjs: 7.8.1
       tslib: 2.6.2
-      zone.js: 0.13.1
+      zone.js: 0.13.3
 
   /@angular/forms@16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)(@angular/platform-browser@16.2.6)(rxjs@7.8.1):
     resolution: {integrity: sha512-TsSpV6Oh0Z5WlCmRB6jEsChLA8ChBn8CY1uOkTh4YQEzdMCwvBvc1Q2DugER5iGvZU/hRNgjyHX7VR3ysB3JlQ==}
@@ -532,7 +532,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 16.2.6(@angular/core@16.2.6)(rxjs@7.8.1)
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       '@angular/platform-browser': 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -554,7 +554,7 @@ packages:
     dependencies:
       '@angular/common': 16.2.6(@angular/core@16.2.6)(rxjs@7.8.1)
       '@angular/compiler': 16.2.6(@angular/core@16.2.6)
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       '@angular/platform-browser': 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)
       tslib: 2.6.2
     dev: false
@@ -571,7 +571,7 @@ packages:
         optional: true
     dependencies:
       '@angular/common': 16.2.6(@angular/core@16.2.6)(rxjs@7.8.1)
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       tslib: 2.6.2
     dev: false
 
@@ -585,7 +585,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 16.2.6(@angular/core@16.2.6)(rxjs@7.8.1)
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       '@angular/platform-browser': 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -2119,7 +2119,7 @@ packages:
       - chokidar
     dev: true
 
-  /@ionic/angular@7.4.1(@angular/core@16.2.6)(@angular/forms@16.2.6)(@angular/router@16.2.6)(rxjs@7.8.1)(zone.js@0.13.1):
+  /@ionic/angular@7.4.1(@angular/core@16.2.6)(@angular/forms@16.2.6)(@angular/router@16.2.6)(rxjs@7.8.1)(zone.js@0.13.3):
     resolution: {integrity: sha512-NKqbO7MHczMEVYsTzyeWiAoVCjfTuSN/MWFQ1y1RcN+b/TH03mtqd7T8h4c/MDmPq5RUQAOWMTTUAnWbv57ajw==}
     peerDependencies:
       '@angular/core': '>=14.0.0'
@@ -2128,7 +2128,7 @@ packages:
       rxjs: '>=7.5.0'
       zone.js: '>=0.11.0'
     dependencies:
-      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.1)
+      '@angular/core': 16.2.6(rxjs@7.8.1)(zone.js@0.13.3)
       '@angular/forms': 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)(@angular/platform-browser@16.2.6)(rxjs@7.8.1)
       '@angular/router': 16.2.6(@angular/common@16.2.6)(@angular/core@16.2.6)(@angular/platform-browser@16.2.6)(rxjs@7.8.1)
       '@ionic/core': 7.4.1
@@ -2136,7 +2136,7 @@ packages:
       jsonc-parser: 3.2.0
       rxjs: 7.8.1
       tslib: 2.6.2
-      zone.js: 0.13.1
+      zone.js: 0.13.3
     dev: false
 
   /@ionic/core@7.4.1:
@@ -8338,7 +8338,7 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zone.js@0.13.1:
-    resolution: {integrity: sha512-+bIeDAFEBYuXRuU3qGQvzdPap+N1zjM4KkBAiiQuVVCrHrhjDuY6VkUhNa5+U27+9w0q3fbKiMCbpJ0XzMmSWA==}
+  /zone.js@0.13.3:
+    resolution: {integrity: sha512-MKPbmZie6fASC/ps4dkmIhaT5eonHkEt6eAy80K42tAm0G2W+AahLJjbfi6X9NPdciOE9GRFTTM8u2IiF6O3ww==}
     dependencies:
       tslib: 2.6.2
