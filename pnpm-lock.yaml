@@ -8,6 +8,9 @@ dependencies:
   '@angular/common':
     specifier: ^16.2.10
     version: 16.2.10(@angular/core@16.2.10)(rxjs@7.8.1)
+  '@angular/compiler':
+    specifier: ^16.2.10
+    version: 16.2.10(@angular/core@16.2.10)
   '@angular/core':
     specifier: ^16.2.10
     version: 16.2.10(rxjs@7.8.1)(zone.js@0.13.3)
@@ -61,9 +64,6 @@ devDependencies:
   '@angular/cli':
     specifier: ^16.2.7
     version: 16.2.7
-  '@angular/compiler':
-    specifier: ^16.2.10
-    version: 16.2.10(@angular/core@16.2.10)
   '@angular/compiler-cli':
     specifier: ^16.2.10
     version: 16.2.10(@angular/compiler@16.2.10)(typescript@5.1.6)
