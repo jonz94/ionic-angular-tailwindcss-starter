@@ -45,7 +45,7 @@ dependencies:
 devDependencies:
   '@angular-devkit/build-angular':
     specifier: ^16.2.8
-    version: 16.2.8(@angular/compiler-cli@16.2.11)(@types/node@18.18.7)(tailwindcss@3.3.4)(typescript@5.1.6)
+    version: 16.2.8(@angular/compiler-cli@16.2.11)(@types/node@18.18.7)(tailwindcss@3.3.5)(typescript@5.1.6)
   '@angular-eslint/builder':
     specifier: ^16.2.0
     version: 16.2.0(eslint@8.52.0)(typescript@5.1.6)
@@ -87,7 +87,7 @@ devDependencies:
     version: 8.52.0
   eslint-plugin-tailwindcss:
     specifier: ^3.13.0
-    version: 3.13.0(tailwindcss@3.3.4)
+    version: 3.13.0(tailwindcss@3.3.5)
   prettier:
     specifier: ^3.0.3
     version: 3.0.3
@@ -101,8 +101,8 @@ devDependencies:
     specifier: ^2.4.6
     version: 2.4.6(prettier@3.0.3)
   tailwindcss:
-    specifier: ^3.3.4
-    version: 3.3.4
+    specifier: ^3.3.5
+    version: 3.3.5
   typescript:
     specifier: ~5.1.6
     version: 5.1.6
@@ -137,7 +137,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@16.2.8(@angular/compiler-cli@16.2.11)(@types/node@18.18.7)(tailwindcss@3.3.4)(typescript@5.1.6):
+  /@angular-devkit/build-angular@16.2.8(@angular/compiler-cli@16.2.11)(@types/node@18.18.7)(tailwindcss@3.3.5)(typescript@5.1.6):
     resolution: {integrity: sha512-PgTaWerhDO3JjHjgJl/VWB1y1awN8eHrm7sqdpIsgKbVpi26oyByjtPS1gKKhinps9Che66lCbnxrkx2X3rWTg==}
     engines: {node: ^16.14.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -227,7 +227,7 @@ packages:
       semver: 7.5.4
       source-map-loader: 4.0.1(webpack@5.88.2)
       source-map-support: 0.5.21
-      tailwindcss: 3.3.4
+      tailwindcss: 3.3.5
       terser: 5.19.2
       text-table: 0.2.0
       tree-kill: 1.2.2
@@ -4238,7 +4238,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.4):
+  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.5):
     resolution: {integrity: sha512-Fcep4KDRLWaK3KmkQbdyKHG0P4GdXFmXdDaweTIPcgOP60OOuWFbh1++dufRT28Q4zpKTKaHwTsXPJ4O/EjU2Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -4246,7 +4246,7 @@ packages:
     dependencies:
       fast-glob: 3.3.1
       postcss: 8.4.31
-      tailwindcss: 3.3.4
+      tailwindcss: 3.3.5
     dev: true
 
   /eslint-scope@5.1.1:
@@ -7586,8 +7586,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.3.4:
-    resolution: {integrity: sha512-JXZNOkggUAc9T5E7nCrimoXHcSf9h3NWFe5sh36CGD/3M5TRLuQeFnQoDsit2uVTqgoOZHLx5rTykLUu16vsMQ==}
+  /tailwindcss@3.3.5:
+    resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
