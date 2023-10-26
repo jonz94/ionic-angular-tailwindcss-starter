@@ -1,11 +1,10 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-tab3',
   templateUrl: 'tab3.page.html',
   standalone: true,
-  imports: [IonicModule, CommonModule],
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar],
 })
 export class Tab3Page {}

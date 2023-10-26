@@ -1,11 +1,16 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import { IonIcon, IonLabel, IonTabBar, IonTabButton, IonTabs } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { ellipse, square, triangle } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tabs',
   templateUrl: 'tabs.page.html',
   standalone: true,
-  imports: [IonicModule, CommonModule],
+  imports: [IonIcon, IonLabel, IonTabBar, IonTabButton, IonTabs],
 })
-export class TabsPage {}
+export class TabsPage {
+  constructor() {
+    addIcons({ triangle, ellipse, square });
+  }
+}
