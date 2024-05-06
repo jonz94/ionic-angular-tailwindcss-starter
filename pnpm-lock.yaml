@@ -27,8 +27,8 @@ dependencies:
     specifier: ^17.3.7
     version: 17.3.7(@angular/common@17.3.7)(@angular/core@17.3.7)(@angular/platform-browser@17.3.7)(rxjs@7.8.1)
   '@ionic/angular':
-    specifier: ^7.5.6
-    version: 7.5.6(@angular/core@17.3.7)(@angular/forms@17.3.7)(@angular/router@17.3.7)(rxjs@7.8.1)(zone.js@0.14.5)
+    specifier: ^7.8.6
+    version: 7.8.6(@angular/core@17.3.7)(@angular/forms@17.3.7)(@angular/router@17.3.7)(rxjs@7.8.1)(zone.js@0.14.5)
   ionicons:
     specifier: ^7.2.1
     version: 7.2.1
@@ -2467,8 +2467,8 @@ packages:
       - chokidar
     dev: true
 
-  /@ionic/angular@7.5.6(@angular/core@17.3.7)(@angular/forms@17.3.7)(@angular/router@17.3.7)(rxjs@7.8.1)(zone.js@0.14.5):
-    resolution: {integrity: sha512-RJDQgGiVRps/04HBfx23E8tiGCvzE2d5NpWB1Mi1CDmc0ENTSc6odb2XI45YhFxmGvQsWZ8k+H1N/8emAHPraw==}
+  /@ionic/angular@7.8.6(@angular/core@17.3.7)(@angular/forms@17.3.7)(@angular/router@17.3.7)(rxjs@7.8.1)(zone.js@0.14.5):
+    resolution: {integrity: sha512-3Qe53hXpyjtx6fFcxt/NTAlauIawsGmCZJPauV5sAnSKVuX8C82C1zMAZTeJt6m2dnd71wythc98BXUXsx/UxQ==}
     peerDependencies:
       '@angular/core': '>=14.0.0'
       '@angular/forms': '>=14.0.0'
@@ -2479,19 +2479,19 @@ packages:
       '@angular/core': 17.3.7(rxjs@7.8.1)(zone.js@0.14.5)
       '@angular/forms': 17.3.7(@angular/common@17.3.7)(@angular/core@17.3.7)(@angular/platform-browser@17.3.7)(rxjs@7.8.1)
       '@angular/router': 17.3.7(@angular/common@17.3.7)(@angular/core@17.3.7)(@angular/platform-browser@17.3.7)(rxjs@7.8.1)
-      '@ionic/core': 7.5.6
+      '@ionic/core': 7.8.6
       ionicons: 7.2.1
-      jsonc-parser: 3.2.0
+      jsonc-parser: 3.2.1
       rxjs: 7.8.1
       tslib: 2.6.2
       zone.js: 0.14.5
     dev: false
 
-  /@ionic/core@7.5.6:
-    resolution: {integrity: sha512-bYQp2twwm61uA0Q31ToVIpQWsiQ9so1dRoWZPD+l+y4fVuFmOCLYeS6XTLTm73jVBq40JfEcsac7eYC4DxoemQ==}
+  /@ionic/core@7.8.6:
+    resolution: {integrity: sha512-HAYZdEmeJgOdo2kDlZkcCGHb+zs/vjU6iv4skbVBL7y+OnSv/oC2u83Yee8S3/aY0YAxkyBgu7hLTYH13Zc2Aw==}
     dependencies:
-      '@stencil/core': 4.7.2
-      ionicons: 7.2.1
+      '@stencil/core': 4.17.2
+      ionicons: 7.4.0
       tslib: 2.6.2
     dev: false
 
@@ -3070,6 +3070,12 @@ packages:
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
+
+  /@stencil/core@4.17.2:
+    resolution: {integrity: sha512-MX7yaLmpTU9iZvCire9nhecTcE0qBlV0vPWrLMeIXewYN7/hb8B3NjnhQyBKC93FDPI8NBRmt6KIugLw9zcRZg==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
+    hasBin: true
+    dev: false
 
   /@stencil/core@4.7.2:
     resolution: {integrity: sha512-sPPDYrXiTbfeUF5CCyfqysXK/yfTHC4xYR1+nHzGkS2vhRSBOLp0oPuB+xkJLKA+K2ZqDJUxpOnDxy1CLWwBXA==}
@@ -5748,6 +5754,12 @@ packages:
       '@stencil/core': 4.7.2
     dev: false
 
+  /ionicons@7.4.0:
+    resolution: {integrity: sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==}
+    dependencies:
+      '@stencil/core': 4.17.2
+    dev: false
+
   /ip@2.0.0:
     resolution: {integrity: sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==}
     dev: true
@@ -6026,10 +6038,10 @@ packages:
 
   /jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
+    dev: true
 
   /jsonc-parser@3.2.1:
     resolution: {integrity: sha512-AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==}
-    dev: true
 
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
