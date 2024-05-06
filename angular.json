@@ -25,7 +25,7 @@
                 "output": "assets"
               }
             ],
-            "styles": ["src/theme/variables.css", "src/global.css"],
+            "styles": ["src/global.css", "src/theme/variables.css"],
             "scripts": []
           },
           "defaultConfiguration": "production",
