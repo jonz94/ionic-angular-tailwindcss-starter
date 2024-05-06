@@ -30,8 +30,8 @@ dependencies:
     specifier: ^7.8.6
     version: 7.8.6(@angular/core@17.3.7)(@angular/forms@17.3.7)(@angular/router@17.3.7)(rxjs@7.8.1)(zone.js@0.14.5)
   ionicons:
-    specifier: ^7.2.1
-    version: 7.2.1
+    specifier: ^7.4.0
+    version: 7.4.0
   rxjs:
     specifier: ^7.8.1
     version: 7.8.1
@@ -2480,7 +2480,7 @@ packages:
       '@angular/forms': 17.3.7(@angular/common@17.3.7)(@angular/core@17.3.7)(@angular/platform-browser@17.3.7)(rxjs@7.8.1)
       '@angular/router': 17.3.7(@angular/common@17.3.7)(@angular/core@17.3.7)(@angular/platform-browser@17.3.7)(rxjs@7.8.1)
       '@ionic/core': 7.8.6
-      ionicons: 7.2.1
+      ionicons: 7.4.0
       jsonc-parser: 3.2.1
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -3073,12 +3073,6 @@ packages:
 
   /@stencil/core@4.17.2:
     resolution: {integrity: sha512-MX7yaLmpTU9iZvCire9nhecTcE0qBlV0vPWrLMeIXewYN7/hb8B3NjnhQyBKC93FDPI8NBRmt6KIugLw9zcRZg==}
-    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
-    hasBin: true
-    dev: false
-
-  /@stencil/core@4.7.2:
-    resolution: {integrity: sha512-sPPDYrXiTbfeUF5CCyfqysXK/yfTHC4xYR1+nHzGkS2vhRSBOLp0oPuB+xkJLKA+K2ZqDJUxpOnDxy1CLWwBXA==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
@@ -5747,12 +5741,6 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 6.2.0
     dev: true
-
-  /ionicons@7.2.1:
-    resolution: {integrity: sha512-2pvCM7DGVEtbbj48PJzQrCADCQrqjU1nUYX9l9PyEWz3ZfdnLdAouqwPxLdl8tbaF9cE7OZRSlyQD7oLOLnGoQ==}
-    dependencies:
-      '@stencil/core': 4.7.2
-    dev: false
 
   /ionicons@7.4.0:
     resolution: {integrity: sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==}
