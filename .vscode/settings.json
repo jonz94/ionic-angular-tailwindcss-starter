@@ -6,7 +6,7 @@
   // auto format when save (prettier + eslint)
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
 
   // eslint
