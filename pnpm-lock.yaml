@@ -1285,8 +1285,8 @@ packages:
     resolution: {integrity: sha512-OrcNPXdpSl9UX7qPVRWbmWMCSXrcDa2M9DvrbOTj7ao1S4PlqVFYv9/yLKMkrJKZ/V5A/kDBC690or307i26Og==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  '@npmcli/fs@3.1.0':
-    resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
+  '@npmcli/fs@3.1.1':
+    resolution: {integrity: sha512-q9CRWjpHCMIh5sVyefoD1cA7PkvILqCZsnSOEUUivORLjxCO/Irmue2DprETiNgEqktDBZaM1Bi+jrarx1XdCg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
   '@npmcli/git@5.0.7':
@@ -1509,8 +1509,8 @@ packages:
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
-  '@stencil/core@4.17.2':
-    resolution: {integrity: sha512-MX7yaLmpTU9iZvCire9nhecTcE0qBlV0vPWrLMeIXewYN7/hb8B3NjnhQyBKC93FDPI8NBRmt6KIugLw9zcRZg==}
+  '@stencil/core@4.18.0':
+    resolution: {integrity: sha512-cN+nvjy0L8KyYq7N1bmswN/AcBustFlsAxfyPQ+fd3m98lPo53jNKIxKve1ZQ4ZmzSzYO7alDhZvjIesM0rl7w==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -1518,8 +1518,8 @@ packages:
     resolution: {integrity: sha512-yVtV8zsdo8qFHe+/3kw81dSLyF7D576A5cCFCi4X7B39tWT7SekaEFUnvnWJHz+9qO7qJTah1JbrDjWKqFtdWA==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  '@tufjs/models@2.0.0':
-    resolution: {integrity: sha512-c8nj8BaOExmZKO2DXhDfegyhSGcG9E/mPN3U13L+/PsoWm1uaGiHHjxqSHQiasDBQwDA3aHuw9+9spYAP1qvvg==}
+  '@tufjs/models@2.0.1':
+    resolution: {integrity: sha512-92F7/SFyufn4DXsha9+QfKnN03JGqtMFMXgSHbZOo8JG59WkTni7UzAouNQDf7AuP9OAMxVOPQcqG3sB7w+kkg==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
   '@types/body-parser@1.19.5':
@@ -1943,9 +1943,6 @@ packages:
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
-  builtins@5.1.0:
-    resolution: {integrity: sha512-SW9lzGTLvWTP1AY8xeAMZimqDrIaSdLQUcVr9DMef51niJ022Ri87SwRRKYm4A6iHfkPaiVUu/Duw2Wc4J7kKg==}
-
   bytes@3.0.0:
     resolution: {integrity: sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw==}
     engines: {node: '>= 0.8'}
@@ -2280,8 +2277,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.756:
-    resolution: {integrity: sha512-RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==}
+  electron-to-chromium@1.4.758:
+    resolution: {integrity: sha512-/o9x6TCdrYZBMdGeTifAP3wlF/gVT+TtWJe3BSmtNh92Mw81U9hrYwW9OAGUh+sEOX/yz5e34sksqRruZbjYrw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2303,8 +2300,8 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
-  enhanced-resolve@5.16.0:
-    resolution: {integrity: sha512-O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==}
+  enhanced-resolve@5.16.1:
+    resolution: {integrity: sha512-4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==}
     engines: {node: '>=10.13.0'}
 
   enquirer@2.3.6:
@@ -3297,8 +3294,8 @@ packages:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
 
-  npm-bundled@3.0.0:
-    resolution: {integrity: sha512-Vq0eyEQy+elFpzsKjMss9kxqb9tG3YHg4dsyWuUENuzvSUWe1TCnW/vV9FkhvBk/brEDoDiVd+M1Btosa6ImdQ==}
+  npm-bundled@3.0.1:
+    resolution: {integrity: sha512-+AvaheE/ww1JEwRHOrn4WHNzOxGtVp+adrg2AeZS/7KuxGUYFuBta98wYpfHBbJp6Tg6j1NKSEVHNcfZzJHQwQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
   npm-install-checks@6.3.0:
@@ -3879,6 +3876,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.6.1:
+    resolution: {integrity: sha512-f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
     engines: {node: '>= 0.8.0'}
@@ -4188,8 +4190,8 @@ packages:
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  tuf-js@2.2.0:
-    resolution: {integrity: sha512-ZSDngmP1z6zw+FIkIBjvOp/II/mIub/O7Pp12j1WNsiCpg5R5wAc//i555bBQsE44O94btLt0xM/Zr2LQjwdCg==}
+  tuf-js@2.2.1:
+    resolution: {integrity: sha512-GwIJau9XaA8nLVbUXsN3IlFi7WmQ48gBUrl3FTkkL/XLu/POhBzfmX9hd33FNMX1qAsfl6ozO1iMmW9NC8YniA==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
   type-check@0.4.0:
@@ -4278,8 +4280,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  validate-npm-package-name@5.0.0:
-    resolution: {integrity: sha512-YuKoXDAhBYxY7SfOKxHBDoSyENFeW5VvIIQp2TGQuit8gpK6MnWaQelBKxso72DoxTZfZdcP3W90LqpSkgPzLQ==}
+  validate-npm-package-name@5.0.1:
+    resolution: {integrity: sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
   vary@1.1.2:
@@ -4710,7 +4712,7 @@ snapshots:
       chokidar: 3.6.0
       convert-source-map: 1.9.0
       reflect-metadata: 0.2.2
-      semver: 7.6.0
+      semver: 7.6.1
       tslib: 2.6.2
       typescript: 5.4.5
       yargs: 17.7.2
@@ -5723,7 +5725,7 @@ snapshots:
 
   '@ionic/core@8.1.0':
     dependencies:
-      '@stencil/core': 4.17.2
+      '@stencil/core': 4.18.0
       ionicons: 7.4.0
       tslib: 2.6.2
 
@@ -5806,7 +5808,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@npmcli/fs@3.1.0':
+  '@npmcli/fs@3.1.1':
     dependencies:
       semver: 7.6.0
 
@@ -5825,7 +5827,7 @@ snapshots:
 
   '@npmcli/installed-package-contents@2.1.0':
     dependencies:
-      npm-bundled: 3.0.0
+      npm-bundled: 3.0.1
       npm-normalize-package-bin: 3.0.1
 
   '@npmcli/node-gyp@3.0.0': {}
@@ -5881,7 +5883,7 @@ snapshots:
       enquirer: 2.3.6
       ignore: 5.3.1
       nx: 18.3.4
-      semver: 7.6.0
+      semver: 7.6.1
       tmp: 0.2.3
       tslib: 2.6.2
       yargs-parser: 21.1.1
@@ -5997,7 +5999,7 @@ snapshots:
   '@sigstore/tuf@2.3.2':
     dependencies:
       '@sigstore/protobuf-specs': 0.3.1
-      tuf-js: 2.2.0
+      tuf-js: 2.2.1
     transitivePeerDependencies:
       - supports-color
 
@@ -6009,11 +6011,11 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@stencil/core@4.17.2': {}
+  '@stencil/core@4.18.0': {}
 
   '@tufjs/canonical-json@2.0.0': {}
 
-  '@tufjs/models@2.0.0':
+  '@tufjs/models@2.0.1':
     dependencies:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 9.0.4
@@ -6124,7 +6126,7 @@ snapshots:
       graphemer: 1.4.0
       ignore: 5.3.1
       natural-compare: 1.4.0
-      semver: 7.6.0
+      semver: 7.6.1
       ts-api-utils: 1.3.0(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
@@ -6171,7 +6173,7 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
-      semver: 7.6.0
+      semver: 7.6.1
       ts-api-utils: 1.3.0(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
@@ -6187,7 +6189,7 @@ snapshots:
       '@typescript-eslint/types': 7.8.0
       '@typescript-eslint/typescript-estree': 7.8.0(typescript@5.4.5)
       eslint: 8.57.0
-      semver: 7.6.0
+      semver: 7.6.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -6535,7 +6537,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001616
-      electron-to-chromium: 1.4.756
+      electron-to-chromium: 1.4.758
       node-releases: 2.0.14
       update-browserslist-db: 1.0.15(browserslist@4.23.0)
 
@@ -6546,17 +6548,13 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  builtins@5.1.0:
-    dependencies:
-      semver: 7.6.0
-
   bytes@3.0.0: {}
 
   bytes@3.1.2: {}
 
   cacache@18.0.3:
     dependencies:
-      '@npmcli/fs': 3.1.0
+      '@npmcli/fs': 3.1.1
       fs-minipass: 3.0.3
       glob: 10.3.12
       lru-cache: 10.2.2
@@ -6862,7 +6860,7 @@ snapshots:
     dependencies:
       jake: 10.9.1
 
-  electron-to-chromium@1.4.756: {}
+  electron-to-chromium@1.4.758: {}
 
   emoji-regex@8.0.0: {}
 
@@ -6881,7 +6879,7 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  enhanced-resolve@5.16.0:
+  enhanced-resolve@5.16.1:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.2.1
@@ -7488,7 +7486,7 @@ snapshots:
 
   ionicons@7.4.0:
     dependencies:
-      '@stencil/core': 4.17.2
+      '@stencil/core': 4.18.0
 
   ip-address@9.0.5:
     dependencies:
@@ -7946,7 +7944,7 @@ snapshots:
 
   normalize-range@0.1.2: {}
 
-  npm-bundled@3.0.0:
+  npm-bundled@3.0.1:
     dependencies:
       npm-normalize-package-bin: 3.0.1
 
@@ -7961,7 +7959,7 @@ snapshots:
       hosted-git-info: 7.0.2
       proc-log: 3.0.0
       semver: 7.6.0
-      validate-npm-package-name: 5.0.0
+      validate-npm-package-name: 5.0.1
 
   npm-packlist@8.0.2:
     dependencies:
@@ -8022,7 +8020,7 @@ snapshots:
       npm-run-path: 4.0.1
       open: 8.4.2
       ora: 5.3.0
-      semver: 7.6.0
+      semver: 7.6.1
       string-width: 4.2.3
       strong-log-transformer: 2.1.0
       tar-stream: 2.2.0
@@ -8087,7 +8085,7 @@ snapshots:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.2
+      cli-spinners: 2.6.1
       is-interactive: 1.0.0
       log-symbols: 4.1.0
       strip-ansi: 6.0.1
@@ -8571,6 +8569,8 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
+  semver@7.6.1: {}
+
   send@0.18.0:
     dependencies:
       debug: 2.6.9
@@ -8696,7 +8696,7 @@ snapshots:
       git-hooks-list: 3.1.0
       globby: 13.2.2
       is-plain-obj: 4.1.0
-      semver: 7.6.0
+      semver: 7.6.1
       sort-object-keys: 1.1.3
 
   source-map-js@1.2.0: {}
@@ -8948,9 +8948,9 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tuf-js@2.2.0:
+  tuf-js@2.2.1:
     dependencies:
-      '@tufjs/models': 2.0.0
+      '@tufjs/models': 2.0.1
       debug: 4.3.4
       make-fetch-happen: 13.0.1
     transitivePeerDependencies:
@@ -9021,9 +9021,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  validate-npm-package-name@5.0.0:
-    dependencies:
-      builtins: 5.1.0
+  validate-npm-package-name@5.0.1: {}
 
   vary@1.1.2: {}
 
@@ -9135,7 +9133,7 @@ snapshots:
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.16.0
+      enhanced-resolve: 5.16.1
       es-module-lexer: 1.5.2
       eslint-scope: 5.1.1
       events: 3.3.0
