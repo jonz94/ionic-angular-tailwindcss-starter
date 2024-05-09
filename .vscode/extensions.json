@@ -6,6 +6,7 @@
   "recommendations": [
     "Angular.ng-template",
     "EditorConfig.EditorConfig",
+    "Ionic.ionic",
     "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
