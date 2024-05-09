@@ -25,6 +25,12 @@ const config = {
         parser: 'angular',
       },
     },
+    {
+      files: 'tsconfig*.json',
+      options: {
+        parser: 'jsonc',
+      },
+    },
   ],
 };
 
