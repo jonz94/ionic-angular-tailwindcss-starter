@@ -78,16 +78,9 @@
   },
   "cli": {
     "analytics": false,
-    "packageManager": "pnpm",
-    "schematicCollections": ["@ionic/angular-toolkit"]
+    "packageManager": "pnpm"
   },
   "schematics": {
-    "@ionic/angular-toolkit:component": {
-      "styleext": "scss"
-    },
-    "@ionic/angular-toolkit:page": {
-      "styleext": "scss"
-    },
     "@angular-eslint/schematics:application": {
       "setParserOptionsProject": true
     },
