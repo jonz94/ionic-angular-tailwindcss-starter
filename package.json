@@ -2,6 +2,7 @@
   "name": "ionic-angular-tailwindcss-starter",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "ng build",
     "fmt": "prettier --write . && ng lint --fix",
