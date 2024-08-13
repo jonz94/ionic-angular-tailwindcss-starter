@@ -50,7 +50,7 @@ importers:
         version: 18.2.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
       '@angular/build':
         specifier: ^18.1.4
-        version: 18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.8)))(typescript@5.5.4))(@types/node@20.14.15)(chokidar@3.6.0)(postcss@8.4.40)(tailwindcss@3.4.7)(typescript@5.5.4)
+        version: 18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.8)))(typescript@5.5.4))(@types/node@20.14.15)(chokidar@3.6.0)(postcss@8.4.40)(tailwindcss@3.4.9)(typescript@5.5.4)
       '@angular/cli':
         specifier: ^18.1.4
         version: 18.1.4(chokidar@3.6.0)
@@ -71,7 +71,7 @@ importers:
         version: 9.9.0(jiti@1.21.6)
       eslint-plugin-tailwindcss:
         specifier: ^3.17.4
-        version: 3.17.4(tailwindcss@3.4.7)
+        version: 3.17.4(tailwindcss@3.4.9)
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -85,8 +85,8 @@ importers:
         specifier: ^2.5.1
         version: 2.5.1(prettier@3.3.3)
       tailwindcss:
-        specifier: ^3.4.7
-        version: 3.4.7
+        specifier: ^3.4.9
+        version: 3.4.9
       typescript:
         specifier: ~5.5.4
         version: 5.5.4
@@ -2607,8 +2607,8 @@ packages:
     resolution: {integrity: sha512-7gr8p9TQP6RAHusBOSLs46F4564ZrjV8xFmw5zCmgmhGUcw2hxsShhJ6CEiHQMgPDwAQ1fWHPM0ypc4RMAig4A==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  tailwindcss@3.4.9:
+    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2938,7 +2938,7 @@ snapshots:
       eslint: 9.9.0(jiti@1.21.6)
       typescript: 5.5.4
 
-  '@angular/build@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.8)))(typescript@5.5.4))(@types/node@20.14.15)(chokidar@3.6.0)(postcss@8.4.40)(tailwindcss@3.4.7)(typescript@5.5.4)':
+  '@angular/build@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.8)))(typescript@5.5.4))(@types/node@20.14.15)(chokidar@3.6.0)(postcss@8.4.40)(tailwindcss@3.4.9)(typescript@5.5.4)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.1801.4(chokidar@3.6.0)
@@ -2971,7 +2971,7 @@ snapshots:
       watchpack: 2.4.1
     optionalDependencies:
       postcss: 8.4.40
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.9
     transitivePeerDependencies:
       - '@types/node'
       - chokidar
@@ -4311,11 +4311,11 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.7):
+  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.9):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.40
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.9
 
   eslint-scope@8.0.2:
     dependencies:
@@ -5532,7 +5532,7 @@ snapshots:
       '@pkgr/core': 0.1.1
       tslib: 2.6.3
 
-  tailwindcss@3.4.7:
+  tailwindcss@3.4.9:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
