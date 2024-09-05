@@ -39,8 +39,8 @@ importers:
         specifier: ^7.8.1
         version: 7.8.1
       tslib:
-        specifier: ^2.6.3
-        version: 2.6.3
+        specifier: ^2.7.0
+        version: 2.7.0
       zone.js:
         specifier: ~0.14.10
         version: 0.14.10
@@ -2484,8 +2484,8 @@ packages:
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
-  tslib@2.6.3:
-    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+  tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tuf-js@2.2.1:
     resolution: {integrity: sha512-GwIJau9XaA8nLVbUXsN3IlFi7WmQ48gBUrl3FTkkL/XLu/POhBzfmX9hd33FNMX1qAsfl6ozO1iMmW9NC8YniA==}
@@ -2808,7 +2808,7 @@ snapshots:
     dependencies:
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/compiler-cli@18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4)':
     dependencies:
@@ -2819,7 +2819,7 @@ snapshots:
       convert-source-map: 1.9.0
       reflect-metadata: 0.2.2
       semver: 7.6.3
-      tslib: 2.6.3
+      tslib: 2.7.0
       typescript: 5.5.4
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -2827,14 +2827,14 @@ snapshots:
 
   '@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))':
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
     optionalDependencies:
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
 
   '@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)':
     dependencies:
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
       zone.js: 0.14.10
 
   '@angular/forms@18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@angular/platform-browser@18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(rxjs@7.8.1)':
@@ -2843,7 +2843,7 @@ snapshots:
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
       '@angular/platform-browser': 18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/language-service@18.2.3': {}
 
@@ -2853,13 +2853,13 @@ snapshots:
       '@angular/compiler': 18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
       '@angular/platform-browser': 18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/platform-browser@18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))':
     dependencies:
       '@angular/common': 18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1)
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/router@18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(@angular/platform-browser@18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(rxjs@7.8.1)':
     dependencies:
@@ -2867,7 +2867,7 @@ snapshots:
       '@angular/core': 18.2.3(rxjs@7.8.1)(zone.js@0.14.10)
       '@angular/platform-browser': 18.2.3(@angular/common@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10))
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@babel/code-frame@7.24.7':
     dependencies:
@@ -3300,14 +3300,14 @@ snapshots:
       ionicons: 7.4.0
       jsonc-parser: 3.3.1
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
       zone.js: 0.14.10
 
   '@ionic/core@8.2.7':
     dependencies:
       '@stencil/core': 4.20.0
       ionicons: 7.4.0
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4917,7 +4917,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   safe-buffer@5.2.1: {}
 
@@ -5077,7 +5077,7 @@ snapshots:
   synckit@0.9.1:
     dependencies:
       '@pkgr/core': 0.1.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   tailwindcss@3.4.10:
     dependencies:
@@ -5141,7 +5141,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tslib@2.6.3: {}
+  tslib@2.7.0: {}
 
   tuf-js@2.2.1:
     dependencies:
