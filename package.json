@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@angular-eslint/builder": "^18.2.0",
-    "@angular/build": "^18.1.4",
-    "@angular/cli": "^18.1.4",
+    "@angular/build": "^18.2.3",
+    "@angular/cli": "^18.2.3",
     "@angular/compiler-cli": "^18.1.4",
     "@angular/language-service": "^18.1.4",
     "@types/node": "^20.14.15",
