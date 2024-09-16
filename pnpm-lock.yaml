@@ -46,11 +46,11 @@ importers:
         version: 0.14.10
     devDependencies:
       '@angular/build':
-        specifier: ^18.2.3
-        version: 18.2.3(@angular/compiler-cli@18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.16.5)(chokidar@3.6.0)(postcss@8.4.45)(tailwindcss@3.4.10)(typescript@5.5.4)
+        specifier: ^18.2.4
+        version: 18.2.4(@angular/compiler-cli@18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.16.5)(chokidar@3.6.0)(postcss@8.4.45)(tailwindcss@3.4.10)(typescript@5.5.4)
       '@angular/cli':
-        specifier: ^18.2.3
-        version: 18.2.3(chokidar@3.6.0)
+        specifier: ^18.2.4
+        version: 18.2.4(chokidar@3.6.0)
       '@angular/compiler-cli':
         specifier: ^18.2.3
         version: 18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4)
@@ -62,7 +62,7 @@ importers:
         version: 20.16.5
       angular-eslint:
         specifier: ^18.3.0
-        version: 18.3.0(@angular-devkit/core@18.2.3(chokidar@3.6.0))(@angular-devkit/schematics@18.2.3(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript-eslint@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(typescript@5.5.4)
+        version: 18.3.0(@angular-devkit/core@18.2.4(chokidar@3.6.0))(@angular-devkit/schematics@18.2.4(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript-eslint@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(typescript@5.5.4)
       eslint:
         specifier: ^9.9.1
         version: 9.9.1(jiti@1.21.6)
@@ -101,12 +101,12 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@angular-devkit/architect@0.1802.3':
-    resolution: {integrity: sha512-WQ2AmkUKy1bqrDlNfozW8+VT2Tv/Fdmu4GIXps3ytZANyAKiIvTzmmql2cRCXXraa9FNMjLWNvz+qolDxWVdYQ==}
+  '@angular-devkit/architect@0.1802.4':
+    resolution: {integrity: sha512-VH7AwGng1zuWPTJoH1IgHYeNhqZIgzlwDx39JPmArZAW/WZHDILWB7ipbTNw0R4U4VncrXJqDmMVex7NdHP6sg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
 
-  '@angular-devkit/core@18.2.3':
-    resolution: {integrity: sha512-vbFs+ofNK9OWeMIcFarFjegXVklhtSdLTEFKZ9trDVr8alTJdjI9AiYa6OOUTDAyq0hqYxV26xlCisWAPe7s5w==}
+  '@angular-devkit/core@18.2.4':
+    resolution: {integrity: sha512-svlgZ0vbLrfNJAQE5WePAutcYIyA7C0OfzKSTMsfV2X1I+1blYDaZIu/ocnHqofMHu6ZqdSaaU/p/rieqU8fcA==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       chokidar: ^3.5.2
@@ -114,8 +114,8 @@ packages:
       chokidar:
         optional: true
 
-  '@angular-devkit/schematics@18.2.3':
-    resolution: {integrity: sha512-N3tRAzBW2yWQhebvc1Ha18XTMSXOQTfr8HNjx7Fasx0Fg1tNyGR612MJNZw6je/PqyItKeUHOhztvFMfCQjRyg==}
+  '@angular-devkit/schematics@18.2.4':
+    resolution: {integrity: sha512-s2WdUhyLlKj5kOjb6vrvJg9/31KvgyRJGjy7PnzS43tpwF9MLuM3AYhuJsXHPhx+i0nyWn/Jnd8ZLjMzXljSxg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
 
   '@angular-eslint/builder@18.3.0':
@@ -160,8 +160,8 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '*'
 
-  '@angular/build@18.2.3':
-    resolution: {integrity: sha512-USrD2Zvcb1te2dnqhH7JZ5XeJDg/t7fjUHR4f93vvMrnrncwCjLoHbHpz01HCHfcIVRgsYUdAmAi1iG7vpak7w==}
+  '@angular/build@18.2.4':
+    resolution: {integrity: sha512-GVs7O7wxNMJCkqh6Vv2u9GEArWg9jyEt8Fofd6CJGzxKBYQ4hR5gjzL/lU6kNFiMcioS1wm1f6qtJtgilUO+9A==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^18.0.0
@@ -186,8 +186,8 @@ packages:
       tailwindcss:
         optional: true
 
-  '@angular/cli@18.2.3':
-    resolution: {integrity: sha512-40258vuliH6+p8QSByZe5EcIXSj0iR3PNF6yuusClR/ByToHOnmuPw7WC+AYr0ooozmqlim/EjQe4/037OUB3w==}
+  '@angular/cli@18.2.4':
+    resolution: {integrity: sha512-n+Y2xlgcpTZ+MZmycf2b3ceVvANDJFkDEodobVtyG63WvGOhkZ3aGhT7sHguKpAQwJLicSf8zF2z+v1Yi0DvRw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     hasBin: true
 
@@ -966,8 +966,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@schematics/angular@18.2.3':
-    resolution: {integrity: sha512-whSON70z9HYb4WboVXmPFE/RLKJJQLWNzNcUyi8OSDZkQbJnYgPp0///n738m26Y/XeJDv11q1gESy+Zl2AdUw==}
+  '@schematics/angular@18.2.4':
+    resolution: {integrity: sha512-GxrPv4eOPrjMKoAVhch9eprW8H/DFhBy5Zgp7CgGui9NprYkkubxw/yyo11WfR5CFZ/q5AfsjV76dPCkhLwLmA==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
 
   '@sigstore/bundle@2.3.2':
@@ -2641,14 +2641,14 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@angular-devkit/architect@0.1802.3(chokidar@3.6.0)':
+  '@angular-devkit/architect@0.1802.4(chokidar@3.6.0)':
     dependencies:
-      '@angular-devkit/core': 18.2.3(chokidar@3.6.0)
+      '@angular-devkit/core': 18.2.4(chokidar@3.6.0)
       rxjs: 7.8.1
     transitivePeerDependencies:
       - chokidar
 
-  '@angular-devkit/core@18.2.3(chokidar@3.6.0)':
+  '@angular-devkit/core@18.2.4(chokidar@3.6.0)':
     dependencies:
       ajv: 8.17.1
       ajv-formats: 3.0.1(ajv@8.17.1)
@@ -2659,9 +2659,9 @@ snapshots:
     optionalDependencies:
       chokidar: 3.6.0
 
-  '@angular-devkit/schematics@18.2.3(chokidar@3.6.0)':
+  '@angular-devkit/schematics@18.2.4(chokidar@3.6.0)':
     dependencies:
-      '@angular-devkit/core': 18.2.3(chokidar@3.6.0)
+      '@angular-devkit/core': 18.2.4(chokidar@3.6.0)
       jsonc-parser: 3.3.1
       magic-string: 0.30.11
       ora: 5.4.1
@@ -2694,10 +2694,10 @@ snapshots:
       eslint: 9.9.1(jiti@1.21.6)
       typescript: 5.5.4
 
-  '@angular-eslint/schematics@18.3.0(@angular-devkit/core@18.2.3(chokidar@3.6.0))(@angular-devkit/schematics@18.2.3(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)':
+  '@angular-eslint/schematics@18.3.0(@angular-devkit/core@18.2.4(chokidar@3.6.0))(@angular-devkit/schematics@18.2.4(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)':
     dependencies:
-      '@angular-devkit/core': 18.2.3(chokidar@3.6.0)
-      '@angular-devkit/schematics': 18.2.3(chokidar@3.6.0)
+      '@angular-devkit/core': 18.2.4(chokidar@3.6.0)
+      '@angular-devkit/schematics': 18.2.4(chokidar@3.6.0)
       '@angular-eslint/eslint-plugin': 18.3.0(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       '@angular-eslint/eslint-plugin-template': 18.3.0(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       ignore: 5.3.2
@@ -2722,10 +2722,10 @@ snapshots:
       eslint: 9.9.1(jiti@1.21.6)
       typescript: 5.5.4
 
-  '@angular/build@18.2.3(@angular/compiler-cli@18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.16.5)(chokidar@3.6.0)(postcss@8.4.45)(tailwindcss@3.4.10)(typescript@5.5.4)':
+  '@angular/build@18.2.4(@angular/compiler-cli@18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.16.5)(chokidar@3.6.0)(postcss@8.4.45)(tailwindcss@3.4.10)(typescript@5.5.4)':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@angular-devkit/architect': 0.1802.3(chokidar@3.6.0)
+      '@angular-devkit/architect': 0.1802.4(chokidar@3.6.0)
       '@angular/compiler-cli': 18.2.3(@angular/compiler@18.2.3(@angular/core@18.2.3(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4)
       '@babel/core': 7.25.2
       '@babel/helper-annotate-as-pure': 7.24.7
@@ -2764,14 +2764,14 @@ snapshots:
       - supports-color
       - terser
 
-  '@angular/cli@18.2.3(chokidar@3.6.0)':
+  '@angular/cli@18.2.4(chokidar@3.6.0)':
     dependencies:
-      '@angular-devkit/architect': 0.1802.3(chokidar@3.6.0)
-      '@angular-devkit/core': 18.2.3(chokidar@3.6.0)
-      '@angular-devkit/schematics': 18.2.3(chokidar@3.6.0)
+      '@angular-devkit/architect': 0.1802.4(chokidar@3.6.0)
+      '@angular-devkit/core': 18.2.4(chokidar@3.6.0)
+      '@angular-devkit/schematics': 18.2.4(chokidar@3.6.0)
       '@inquirer/prompts': 5.3.8
       '@listr2/prompt-adapter-inquirer': 2.0.15(@inquirer/prompts@5.3.8)
-      '@schematics/angular': 18.2.3(chokidar@3.6.0)
+      '@schematics/angular': 18.2.4(chokidar@3.6.0)
       '@yarnpkg/lockfile': 1.1.0
       ini: 4.1.3
       jsonc-parser: 3.3.1
@@ -3475,10 +3475,10 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.20.0':
     optional: true
 
-  '@schematics/angular@18.2.3(chokidar@3.6.0)':
+  '@schematics/angular@18.2.4(chokidar@3.6.0)':
     dependencies:
-      '@angular-devkit/core': 18.2.3(chokidar@3.6.0)
-      '@angular-devkit/schematics': 18.2.3(chokidar@3.6.0)
+      '@angular-devkit/core': 18.2.4(chokidar@3.6.0)
+      '@angular-devkit/schematics': 18.2.4(chokidar@3.6.0)
       jsonc-parser: 3.3.1
     transitivePeerDependencies:
       - chokidar
@@ -3664,12 +3664,12 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  angular-eslint@18.3.0(@angular-devkit/core@18.2.3(chokidar@3.6.0))(@angular-devkit/schematics@18.2.3(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript-eslint@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(typescript@5.5.4):
+  angular-eslint@18.3.0(@angular-devkit/core@18.2.4(chokidar@3.6.0))(@angular-devkit/schematics@18.2.4(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript-eslint@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
       '@angular-eslint/builder': 18.3.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       '@angular-eslint/eslint-plugin': 18.3.0(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       '@angular-eslint/eslint-plugin-template': 18.3.0(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
-      '@angular-eslint/schematics': 18.3.0(@angular-devkit/core@18.2.3(chokidar@3.6.0))(@angular-devkit/schematics@18.2.3(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
+      '@angular-eslint/schematics': 18.3.0(@angular-devkit/core@18.2.4(chokidar@3.6.0))(@angular-devkit/schematics@18.2.4(chokidar@3.6.0))(@typescript-eslint/utils@8.4.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       '@angular-eslint/template-parser': 18.3.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       eslint: 9.9.1(jiti@1.21.6)
       typescript: 5.5.4
