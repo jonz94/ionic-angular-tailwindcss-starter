@@ -4,14 +4,11 @@ import ngEslint from 'angular-eslint';
 import twEslint from 'eslint-plugin-tailwindcss';
 import tsEslint from 'typescript-eslint';
 
-const configs = eslint.configs;
-const tweslintConfigs = twEslint.configs;
-
 export default tsEslint.config(
   {
     files: ['**/*.ts'],
     extends: [
-      configs.recommended,
+      eslint.configs.recommended,
       ...tsEslint.configs.recommended,
       ...tsEslint.configs.stylistic,
       ...ngEslint.configs.tsRecommended,
@@ -47,7 +44,7 @@ export default tsEslint.config(
     extends: [
       ...ngEslint.configs.templateRecommended,
       ...ngEslint.configs.templateAccessibility,
-      ...tweslintConfigs['flat/recommended'],
+      ...twEslint.configs['flat/recommended'],
     ],
     rules: {},
   },
