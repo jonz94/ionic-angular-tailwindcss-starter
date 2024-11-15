@@ -31,7 +31,7 @@
     "@angular/cli": "^18.2.12",
     "@angular/compiler-cli": "^18.2.12",
     "@angular/language-service": "^18.2.12",
-    "@types/node": "^20.17.2",
+    "@types/node": "^20.17.6",
     "angular-eslint": "^18.4.0",
     "eslint": "^9.13.0",
     "eslint-plugin-tailwindcss": "^3.17.5",
