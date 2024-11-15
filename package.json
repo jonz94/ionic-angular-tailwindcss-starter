@@ -44,7 +44,7 @@
     "typescript-eslint": "^8.12.1"
   },
   "engines": {
-    "node": ">=20.18.0",
+    "node": ">=22.11.0",
     "pnpm": ">=9"
   }
 }
