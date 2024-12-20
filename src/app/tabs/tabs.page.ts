@@ -6,7 +6,6 @@ import { ellipse, square, triangle } from 'ionicons/icons';
 @Component({
   selector: 'app-tabs',
   templateUrl: 'tabs.page.html',
-  standalone: true,
   imports: [IonIcon, IonLabel, IonTabBar, IonTabButton, IonTabs],
 })
 export class TabsPage {
