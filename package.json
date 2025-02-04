@@ -33,7 +33,7 @@
     "@angular/language-service": "^19.1.4",
     "@types/node": "^22.13.1",
     "angular-eslint": "^19.0.2",
-    "eslint": "^9.18.0",
+    "eslint": "^9.19.0",
     "eslint-plugin-tailwindcss": "^3.18.0",
     "prettier": "^3.4.2",
     "prettier-plugin-organize-attributes": "^1.0.0",
