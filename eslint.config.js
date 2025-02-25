@@ -1,7 +1,6 @@
 // @ts-check
 import eslint from '@eslint/js';
 import ngEslint from 'angular-eslint';
-import twEslint from 'eslint-plugin-tailwindcss';
 import tsEslint from 'typescript-eslint';
 
 export default tsEslint.config(
@@ -41,11 +40,7 @@ export default tsEslint.config(
   },
   {
     files: ['**/*.html'],
-    extends: [
-      ...ngEslint.configs.templateRecommended,
-      ...ngEslint.configs.templateAccessibility,
-      ...twEslint.configs['flat/recommended'],
-    ],
+    extends: [...ngEslint.configs.templateRecommended, ...ngEslint.configs.templateAccessibility],
     rules: {},
   },
 );

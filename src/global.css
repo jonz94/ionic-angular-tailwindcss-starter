@@ -34,6 +34,4 @@
  * For more info, please see:
  * https://tailwindcss.com
  */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';

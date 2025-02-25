@@ -16,7 +16,12 @@ const config = {
     '$ANGULAR_OUTPUT',
   ],
 
-  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-attributes', 'prettier-plugin-organize-imports'],
+  plugins: [
+    'prettier-plugin-packagejson',
+    'prettier-plugin-organize-attributes',
+    'prettier-plugin-organize-imports',
+    'prettier-plugin-tailwindcss',
+  ],
 
   overrides: [
     {
