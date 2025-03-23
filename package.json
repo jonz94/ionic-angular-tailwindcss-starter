@@ -34,7 +34,7 @@
     "@tailwindcss/postcss": "^4.0.15",
     "@types/node": "^22.13.11",
     "angular-eslint": "^19.3.0",
-    "eslint": "^9.21.0",
+    "eslint": "^9.23.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.2",
     "prettier-plugin-organize-attributes": "^1.0.0",
