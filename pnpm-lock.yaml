@@ -57,6 +57,9 @@ importers:
       '@angular/language-service':
         specifier: ^19.2.3
         version: 19.2.3
+      '@eslint/js':
+        specifier: ^9.23.0
+        version: 9.23.0
       '@tailwindcss/postcss':
         specifier: ^4.0.15
         version: 4.0.15
