@@ -47,7 +47,7 @@ importers:
     devDependencies:
       '@angular/build':
         specifier: ^19.2.4
-        version: 19.2.4(@angular/compiler-cli@19.2.3(@angular/compiler@19.2.3)(typescript@5.8.2))(@angular/compiler@19.2.3)(@types/node@22.13.13)(chokidar@4.0.3)(jiti@2.4.2)(lightningcss@1.29.2)(postcss@8.5.3)(tailwindcss@4.0.15)(typescript@5.8.2)
+        version: 19.2.4(@angular/compiler-cli@19.2.3(@angular/compiler@19.2.3)(typescript@5.8.2))(@angular/compiler@19.2.3)(@types/node@22.13.13)(chokidar@4.0.3)(jiti@2.4.2)(lightningcss@1.29.2)(postcss@8.5.3)(tailwindcss@4.0.16)(typescript@5.8.2)
       '@angular/cli':
         specifier: ^19.2.4
         version: 19.2.4(@types/node@22.13.13)(chokidar@4.0.3)
@@ -91,8 +91,8 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11(prettier-plugin-organize-attributes@1.0.0(prettier@3.5.3))(prettier-plugin-organize-imports@4.1.0(prettier@3.5.3)(typescript@5.8.2))(prettier@3.5.3)
       tailwindcss:
-        specifier: ^4.0.15
-        version: 4.0.15
+        specifier: ^4.0.16
+        version: 4.0.16
       typescript:
         specifier: ~5.8.2
         version: 5.8.2
@@ -2682,9 +2682,6 @@ packages:
     resolution: {integrity: sha512-vrozgXDQwYO72vHjUb/HnFbQx1exDjoKzqx23aXEg2a9VIg2TSFZ8FmeZpTjUCFMYw7mpX4BE2SFu8wI7asYsw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@4.0.15:
-    resolution: {integrity: sha512-6ZMg+hHdMJpjpeCCFasX7K+U615U9D+7k5/cDK/iRwl6GptF24+I/AbKgOnXhVKePzrEyIXutLv36n4cRsq3Sg==}
-
   tailwindcss@4.0.16:
     resolution: {integrity: sha512-i/SbG7ThTIcLshcFJL+je7hCv9dPis4Xl4XNeel6iZNX42pp/BZ+la+SbZIPoYE+PN8zhKbnHblpQ/lhOWwIeQ==}
 
@@ -2985,7 +2982,7 @@ snapshots:
       eslint: 9.23.0(jiti@2.4.2)
       typescript: 5.8.2
 
-  '@angular/build@19.2.4(@angular/compiler-cli@19.2.3(@angular/compiler@19.2.3)(typescript@5.8.2))(@angular/compiler@19.2.3)(@types/node@22.13.13)(chokidar@4.0.3)(jiti@2.4.2)(lightningcss@1.29.2)(postcss@8.5.3)(tailwindcss@4.0.15)(typescript@5.8.2)':
+  '@angular/build@19.2.4(@angular/compiler-cli@19.2.3(@angular/compiler@19.2.3)(typescript@5.8.2))(@angular/compiler@19.2.3)(@types/node@22.13.13)(chokidar@4.0.3)(jiti@2.4.2)(lightningcss@1.29.2)(postcss@8.5.3)(tailwindcss@4.0.16)(typescript@5.8.2)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.1902.4(chokidar@4.0.3)
@@ -3019,7 +3016,7 @@ snapshots:
     optionalDependencies:
       lmdb: 3.2.6
       postcss: 8.5.3
-      tailwindcss: 4.0.15
+      tailwindcss: 4.0.16
     transitivePeerDependencies:
       - '@types/node'
       - chokidar
@@ -5424,8 +5421,6 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.1.2
       tslib: 2.8.1
-
-  tailwindcss@4.0.15: {}
 
   tailwindcss@4.0.16: {}
 
