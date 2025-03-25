@@ -32,7 +32,7 @@
     "@angular/compiler-cli": "^19.2.3",
     "@angular/language-service": "^19.2.3",
     "@eslint/js": "^9.23.0",
-    "@tailwindcss/postcss": "^4.0.15",
+    "@tailwindcss/postcss": "^4.0.16",
     "@types/node": "^22.13.11",
     "angular-eslint": "^19.3.0",
     "eslint": "^9.23.0",
