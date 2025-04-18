@@ -1,7 +1,8 @@
 {
-  // suppress "Unknown at rule" warning message
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
+  // tailwindcss
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
 
   // auto format when save (prettier + eslint)
   "editor.formatOnSave": true,
