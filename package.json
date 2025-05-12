@@ -10,7 +10,8 @@
     "ng:update-angular-cli": "ng update @angular/cli --force",
     "ng:update-angular-core": "ng update @angular/core --force",
     "ng:update-angular-eslint": "ng update angular-eslint --force",
-    "start": "ng serve"
+    "start": "ng serve",
+    "upgrade-tailwindcss": "npx @tailwindcss/upgrade@latest"
   },
   "dependencies": {
     "@angular/common": "^19.2.10",
