@@ -54,6 +54,7 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
+      "@tailwindcss/oxide",
       "esbuild",
       "lmdb",
       "msgpackr-extract"
